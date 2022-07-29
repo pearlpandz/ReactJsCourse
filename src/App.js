@@ -1,13 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
-import FunctionComponet from './components/functioncomponet';
-import ClassComponent from './components/classComponent';
-// import New from './new';
+import Productlist from './session 4/productlist';
 
 function App() {
   return (
     <div className="App">
-      <FunctionComponet />
+      <h1>React Js Course | Session 4</h1>
+      <hr/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+    <Productlist />
+    <hr/>
+    
     </div>
   );
 }
