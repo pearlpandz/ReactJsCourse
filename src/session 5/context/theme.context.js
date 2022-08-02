@@ -1,5 +1,0 @@
-import React, { createContext } from 'react';
-
-export const ThemeContext = createContext(null);
-
-export const AuthContext = createContext(false)
