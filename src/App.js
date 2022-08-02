@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
-import StateComponent from './session 5/state';
 import { ThemeContext, AuthContext } from './session 5/context/theme.context';
+import MemoComponent from './session 6/memo';
 
 function App() {
   const [theme, setTheme] = useState('light');
@@ -17,7 +17,7 @@ function App() {
           <br />
           <br />
           <br />
-          <StateComponent />
+          <MemoComponent  />
         </div>
       </ThemeContext.Provider>
     </AuthContext.Provider>
