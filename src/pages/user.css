@@ -1,0 +1,12 @@
+.user {
+    background: #d0d0d0;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.user-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
