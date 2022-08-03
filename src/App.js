@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import { ThemeContext, AuthContext } from './session 5/context/theme.context';
 import MemoComponent from './session 6/memo';
+import Problem from './useCallback/problem';
 
 function App() {
   const [theme, setTheme] = useState('light');
@@ -11,13 +12,13 @@ function App() {
     <AuthContext.Provider value={{isAutheticated, setAuthorization}}>
       <ThemeContext.Provider value={{ theme, setTheme }}>
         <div className="App" style={{ height: '100vh', backgroundColor: theme === 'light' ? '#fff' : '#000' }}>
-          <h1>React Js Course | Session 5</h1>
+          <h1>React Js Course</h1>
           <hr />
           <br />
           <br />
           <br />
           <br />
-          <MemoComponent  />
+          <Problem />
         </div>
       </ThemeContext.Provider>
     </AuthContext.Provider>
